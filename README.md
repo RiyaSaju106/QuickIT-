@@ -33,7 +33,7 @@ net start MongoDB
 docker run -d -p 27017:27017 --name quickit-mongo mongo:latest
 ```
 
-### 🛠️ Installation Steps
+### Installation Steps
 
 #### 1. Backend Setup
 ```powershell
@@ -142,21 +142,21 @@ Add these to your backend package.json:
 ###  Features Implemented
 
 #### Frontend Features
-✅ **Product Listing**: Display products by category
-✅ **Product Detail Page**: Individual product view with similar products
-✅ **Shopping Cart**: Add/remove items, quantity management
-✅ **Checkout Flow**: Address form, payment method selection
-✅ **Order Management**: View order history and status
-✅ **User Authentication**: Login/signup with JWT
-✅ **Responsive Design**: Mobile-friendly interface
+ **Product Listing**: Display products by category
+ **Product Detail Page**: Individual product view with similar products
+ **Shopping Cart**: Add/remove items, quantity management
+ **Checkout Flow**: Address form, payment method selection
+ **Order Management**: View order history and status
+ **User Authentication**: Login/signup with JWT
+ **Responsive Design**: Mobile-friendly interface
 
 #### Backend Features
-✅ **RESTful APIs**: Complete CRUD operations
-✅ **JWT Authentication**: Access & refresh tokens
-✅ **MongoDB Integration**: User, Product, Cart, Order models
-✅ **Order Management**: Status tracking, cancellation
-✅ **Search & Filtering**: Product search and category filtering
-✅ **Cart Management**: Persistent cart across sessions
+ **RESTful APIs**: Complete CRUD operations
+ **JWT Authentication**: Access & refresh tokens
+ **MongoDB Integration**: User, Product, Cart, Order models
+ **Order Management**: Status tracking, cancellation
+ **Search & Filtering**: Product search and category filtering
+ **Cart Management**: Persistent cart across sessions
 
 ###  Testing the Application
 
