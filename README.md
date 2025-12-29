@@ -1,4 +1,13 @@
-# QuickIT E-Commerce Platform Setup Guide
+# QuickIT – Full-Stack E-Commerce Platform
+
+QuickIT is a full-stack e-commerce web application built using **React (Vite)** for the frontend and **Node.js, Express, and MongoDB** for the backend.  
+It supports product browsing, cart management, secure authentication, and order processing.
+
+**Tech Stack:**  
+- Frontend: React, Vite, Context API  
+- Backend: Node.js, Express, MongoDB  
+- Authentication: JWT (access & refresh tokens)
+
 
 ## Complete Setup Instructions
 
@@ -217,7 +226,7 @@ If you encounter any issues:
 3. Ensure both frontend and backend are running
 4. Check MongoDB connection
 
-Your QuickIT e-commerce platform is now ready! The application includes:
+This repository contains a complete implementation of the QuickIT e-commerce platform. The application includes:
 - Complete user authentication
 - Product browsing with similar product recommendations
 - Shopping cart functionality
