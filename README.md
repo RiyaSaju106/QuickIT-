@@ -1,6 +1,6 @@
 # QuickIT E-Commerce Platform Setup Guide
 
-## 🚀 Complete Setup Instructions
+## Complete Setup Instructions
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -66,7 +66,7 @@ npm install
 npm run dev
 ```
 
-### 📋 Environment Configuration
+### Environment Configuration
 
 #### Backend (.env file)
 ```env
@@ -83,7 +83,7 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
 ```
 
-### 🎯 Package.json Scripts
+### Package.json Scripts
 
 #### Backend Scripts
 Add these to your backend package.json:
@@ -97,7 +97,7 @@ Add these to your backend package.json:
 }
 ```
 
-### 🌐 Running the Application
+### Running the Application
 
 1. **Start Backend**: 
    ```powershell
@@ -113,7 +113,7 @@ Add these to your backend package.json:
    ```
    Frontend will run on http://localhost:5173
 
-### 🔧 API Endpoints
+### API Endpoints
 
 #### Authentication
 - `POST /api/users/register` - User registration
@@ -139,7 +139,7 @@ Add these to your backend package.json:
 - `GET /api/orders/:id` - Get single order
 - `PUT /api/orders/:id/cancel` - Cancel order
 
-### 🎨 Features Implemented
+###  Features Implemented
 
 #### Frontend Features
 ✅ **Product Listing**: Display products by category
@@ -158,7 +158,7 @@ Add these to your backend package.json:
 ✅ **Search & Filtering**: Product search and category filtering
 ✅ **Cart Management**: Persistent cart across sessions
 
-### 🧪 Testing the Application
+###  Testing the Application
 
 1. **Register a new user** via the Sign In button
 2. **Browse products** on the home page
@@ -167,7 +167,7 @@ Add these to your backend package.json:
 5. **Proceed to checkout** and place an order
 6. **View your orders** in the My Orders section
 
-### 🐛 Troubleshooting
+###  Troubleshooting
 
 #### Common Issues:
 
@@ -191,7 +191,7 @@ Add these to your backend package.json:
    taskkill /PID <PID_NUMBER> /F
    ```
 
-### 📱 Next Steps for Production
+###  Next Steps for Production
 
 1. **Environment Setup**
    - Use production MongoDB cluster
@@ -209,7 +209,7 @@ Add these to your backend package.json:
    - Real-time order tracking
    - Admin dashboard
 
-### 📞 Support
+###  Support
 
 If you encounter any issues:
 1. Check the console for error messages
@@ -217,13 +217,9 @@ If you encounter any issues:
 3. Ensure both frontend and backend are running
 4. Check MongoDB connection
 
-### 🎉 You're All Set!
-
 Your QuickIT e-commerce platform is now ready! The application includes:
 - Complete user authentication
 - Product browsing with similar product recommendations
 - Shopping cart functionality
 - Full checkout process
 - Order management system
-
-Happy coding! 🚀
